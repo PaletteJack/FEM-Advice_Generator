@@ -21,7 +21,7 @@ https.get(api_url, res => {
   res.on('end', () => {
     data = JSON.parse(rawData);
     final = data.slip;
-    
+
     title = final.id;
     text = final.advice;
   });
@@ -31,6 +31,6 @@ app.get('/', (req, res) => {
   res.render('home', {title: title, text: text});
 });
 
-app.listen(3000, () => {
-  console.log('server started on port 3000');
+app.listen(process.env.PORT || 3000, () => {
+  console.log('server started');
 });

@@ -18,7 +18,3 @@ btn.addEventListener('click', (event) => {
       text.innerHTML = `"${advice.advice}"`;
     })
 });
-
-if (sWidth <= 600) {
-  console.log('small!');
-}
