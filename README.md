@@ -4,7 +4,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![](./screenshot.png
+![](./screenshot.png)
 - [Advice_generator][https://git.heroku.com/calm-basin-92856.git]
 ### Built with
 
