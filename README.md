@@ -5,7 +5,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ### Screenshot
 
 ![](./screenshot.png)
-- [Advice_generator][https://git.heroku.com/calm-basin-92856.git]
+- [Advice_generator][https://murmuring-chamber-87682.herokuapp.com]
 ### Built with
 
 - [Nodejs](https://nodejs.org/en/)
