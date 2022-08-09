@@ -2,10 +2,11 @@ const btn = document.querySelector('#btn');
 const title = document.querySelector('#num');
 const text = document.querySelector('.adviceText');
 const api_url = "https://api.adviceslip.com/advice";
-const sWidth = window.screen.width;
 
 async function getAdvice(url) {
-  const response = await fetch(url);
+  const response = await fetch(url, {
+    cache: 'reload'
+  })
   const data = await response.json();
   return data;
 }
