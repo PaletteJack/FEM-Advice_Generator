@@ -5,7 +5,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ### Screenshot
 
 ![](./screenshot.png)
-- [Advice_generator][https://palettejack.github.io/FEM-Advice_Generator/]
+- [Advice_generator](https://palettejack.github.io/FEM-Advice_Generator/)
 
 ## Author
 
